@@ -12,6 +12,8 @@ The app consists of 3 main components:
 
 To run the build, run `yarn start`. Ensure that all `.html` files to be served are added to the `source` field in `package.json`.
 
+Note that this app is not deployed to any server, as it requires the private key in order to access the spreadsheet - `google-spreadsheet` is intended to be run as a node package, not called from the front-end, so purely for convenience purposes, the app was run from a local computer with this knowledge.
+
 ## Data
 
 The app relies on a Google Spreadsheet for data storage. It reads and updates the data as the master data source.
