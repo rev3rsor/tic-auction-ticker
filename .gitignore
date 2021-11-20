@@ -1,0 +1,21 @@
+client-secret.json
+
+.DS_STORE
+.env
+.parcel-cache
+dist
+node_modules
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+
+# syncthing
+.stfolder
+.stignore
